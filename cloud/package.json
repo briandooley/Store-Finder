@@ -1,9 +1,34 @@
 {
-  "name": "fh-app",
-  "version": "0.1.0",
-  "dependencies" : {        
+  "name" : "Value-Retail",
+  "version": "0.8.0",
+  "description" : "A FeedHenry Sample Application",
+  "homepage" : "",
+  "keywords" : ["FeedHenry", "Sample"],
+  "author" : "FeedHenry <support@feedhenry.com>",
+  "contributors" : [
+    {
+      "name": "Al Graham",
+      "email": "alastair.graham@feedhenry.com"
+    }
+  ],
+  "dependencies" : {
+    "fh-nodeapp": "*",
+    "xml2js" : "0.1.x",
+    "async" :"0.2.5",
+    "sendgrid" : "0.2.5",
+    "node-sftp" : "git://github.com/cianclarke/node-sftp.git",
+    "imagemagick" : "0.1.3",
+    "fh-statsc": "*",
+    "fh-reportingclient": "*",
+    "fh-security": "*",
+    "fh-connect" : "*",
+    "thumbnailgen":"*",
+    "jcsv" : "0.0.1",
+    "fh-db":"*",
+    "cron":"1.0.1"
   },
-  "scripts": {
+  "scripts" : {
     "test" : "node test/tests.js"
-  }
+  },
+  "repository" : {"type": "git", "url": "git@github.com:TinyExplosions/fh-test-app.git"}
 }
